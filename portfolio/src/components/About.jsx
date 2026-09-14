@@ -6,7 +6,7 @@ function About({ education, bio }) {
       <div className="container">
         <div className="section-head">
           <h2>About the crew</h2>
-          <span className="section-index mono-tag">About</span>
+          
         </div>
         <div className="about__grid">
           <div >

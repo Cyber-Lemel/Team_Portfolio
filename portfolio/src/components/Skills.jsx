@@ -29,8 +29,8 @@ function Skills({ skills }) {
         </div>
         <div className="skills__columns">
           {renderColumn('Jomer', frontendSkills)}
-          {renderColumn('Janus', backendSkills)}
-          {renderColumn('Mel', otherSkills)}
+          {renderColumn('Mel', backendSkills)}
+          {renderColumn('Janus', otherSkills)}
         </div>
       </div>
     </section>
