@@ -11,7 +11,7 @@ function Skills({ skills }) {
         {skillList.map(skill => (
           <div key={skill.id} className="skill-item">
             <div className="skill-item__box">
-               <span className="mono-tag">{skill.name.charAt(0)}</span>
+               <span className="mono-tag">{skill.icon && <img src={skill.icon} alt={skill.name} />}</span>
             </div>
             <span className="skill-item__name">{skill.name}</span>
           </div>

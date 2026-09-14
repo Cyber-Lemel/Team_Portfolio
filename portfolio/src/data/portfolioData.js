@@ -4,6 +4,7 @@ import member3 from '../assets/Janus.png'
 import dinoImage from '../assets/Dino.png'
 import memoryImage from '../assets/OnePiece.png'
 import EcommerceImage from '../assets/Ani2u.png'
+import { reactIcon, jsIcon, cssIcon, htmlIcon, tailwindIcon, wordpressIcon, laravelIcon, phpIcon, javaIcon, mysqlIcon, packetTracerIcon, gitIcon, dsIcon, alIcon, oopIcon, pythonIcon, figmaIcon, cIcon} from '../assets/logo'
 
 export const teamInfo = {
   name: 'JakcoolTo-gether',
@@ -65,24 +66,24 @@ export const education = {
 }
 
 export const skills = [
-  { id: 1, name: 'React', category: 'Frontend', level: 'Proficient', iconKey: 'react' },
-  { id: 2, name: 'JavaScript (ES6+)', category: 'Frontend', level: 'Proficient', iconKey: 'js' },
-  { id: 3, name: 'CSS / Responsive Design', category: 'Frontend', level: 'Proficient', iconKey: 'css' },
-  { id: 4, name: 'HTML', category: 'Frontend', level: 'Comfortable', iconKey: 'html' },
-  { id: 5, name: 'PHP', category: 'Backend', level: 'Comfortable', iconKey: 'php' },
-  { id: 6, name: 'Laravel', category: 'Backend', level: 'Comfortable', iconKey: 'laravel' },
-  { id: 7, name: 'Java', category: 'Backend', level: 'Proficient', iconKey: 'java' },
-  { id: 8, name: 'MySQL', category: 'Database & Tools', level: 'Proficient', iconKey: 'mysql' },
-  { id: 9, name: 'MongoDB', category: 'Database & Tools', level: 'Comfortable', iconKey: 'mongo' },
-  { id: 10, name: 'Git & GitHub', category: 'Backend', level: 'Proficient', iconKey: 'git' },
-  { id: 11, name: 'Data Structures', category: 'Core CS', level: 'Proficient', iconKey: 'ds' },
-  { id: 12, name: 'Algorithms', category: 'Core CS', level: 'Comfortable', iconKey: 'algo' },
-  { id: 13, name: 'OOP Design', category: 'Core CS', level: 'Proficient', iconKey: 'oop' },
-  {id: 14, name: 'Tailwind CSS', category: 'Frontend', level: 'Comfortable', iconKey: 'tailwind'},
-  {id: 15, name: 'WordPress', category: 'Frontend', level: 'Comfortable', iconKey: 'wordpress'},
-  {id: 16, name: 'Python', category: 'Backend', level: 'Comfortable', iconKey: 'python'},
-  {id: 17, name: 'Figma', category: 'Backend', level: 'Comfortable', iconKey: 'figma'},
-  {id: 18, name: 'C Programming', category: 'Database & Tools', level: 'Comfortable', iconKey: 'c'},
+  { id: 1, name: 'React', category: 'Frontend', level: 'Proficient', iconKey: 'react', icon: reactIcon },
+  { id: 2, name: 'JavaScript (ES6+)', category: 'Frontend', level: 'Proficient', iconKey: 'js', icon: jsIcon },
+  { id: 3, name: 'CSS / Responsive Design', category: 'Frontend', level: 'Proficient', iconKey: 'css', icon: cssIcon },
+  { id: 4, name: 'HTML', category: 'Frontend', level: 'Comfortable', iconKey: 'html', icon: htmlIcon },
+  { id: 5, name: 'PHP', category: 'Backend', level: 'Comfortable', iconKey: 'php', icon: phpIcon },
+  { id: 6, name: 'Laravel', category: 'Backend', level: 'Comfortable', iconKey: 'laravel', icon: laravelIcon },
+  { id: 7, name: 'Java', category: 'Backend', level: 'Proficient', iconKey: 'java', icon: javaIcon },
+  { id: 8, name: 'MySQL', category: 'Database & Tools', level: 'Proficient', iconKey: 'mysql', icon: mysqlIcon },
+  { id: 9, name: 'Packet Tracer', category: 'Database & Tools', level: 'Comfortable', iconKey: 'packet-tracer', icon: packetTracerIcon },
+  { id: 10, name: 'Git & GitHub', category: 'Backend', level: 'Proficient', iconKey: 'git', icon: gitIcon },
+  { id: 11, name: 'Data Structures', category: 'Core CS', level: 'Proficient', iconKey: 'ds', icon: dsIcon },
+  { id: 12, name: 'Algorithms', category: 'Core CS', level: 'Comfortable', iconKey: 'algo', icon: alIcon },
+  { id: 13, name: 'OOP Design', category: 'Core CS', level: 'Proficient', iconKey: 'oop', icon: oopIcon },
+  {id: 14, name: 'Tailwind CSS', category: 'Frontend', level: 'Comfortable', iconKey: 'tailwind', icon: tailwindIcon},
+  {id: 15, name: 'WordPress', category: 'Frontend', level: 'Comfortable', iconKey: 'wordpress', icon: wordpressIcon},
+  {id: 16, name: 'Python', category: 'Backend', level: 'Comfortable', iconKey: 'python', icon: pythonIcon},
+  {id: 17, name: 'Figma', category: 'Backend', level: 'Comfortable', iconKey: 'figma', icon: figmaIcon},
+  {id: 18, name: 'C Programming', category: 'Database & Tools', level: 'Comfortable', iconKey: 'c', icon: cIcon},
 ]
 
 export const projects = [
