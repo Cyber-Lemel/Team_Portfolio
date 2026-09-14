@@ -9,7 +9,7 @@ function About({ education, bio }) {
           <span className="section-index mono-tag">About</span>
         </div>
         <div className="about__grid">
-          <div className="about__card">
+          <div >
             <p className="mono-tag about__label">Program</p>
             <h3>{education.degree}</h3>
             <p>{education.institution} • Expected {education.graduation}</p>

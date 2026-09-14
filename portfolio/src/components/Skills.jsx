@@ -28,9 +28,9 @@ function Skills({ skills }) {
           <span className="section-index mono-tag">Skills</span>
         </div>
         <div className="skills__columns">
-          {renderColumn('Frontend', frontendSkills)}
-          {renderColumn('Backend', backendSkills)}
-          {renderColumn('Database & Tools', otherSkills)}
+          {renderColumn('Jomer', frontendSkills)}
+          {renderColumn('Janus', backendSkills)}
+          {renderColumn('Mel', otherSkills)}
         </div>
       </div>
     </section>

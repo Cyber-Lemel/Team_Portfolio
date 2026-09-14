@@ -1,6 +1,9 @@
 import member1 from '../assets/Jomer.png'
 import member2 from '../assets/Mel.png'
 import member3 from '../assets/Janus.png'
+import dinoImage from '../assets/Dino.png'
+import memoryImage from '../assets/OnePiece.png'
+import EcommerceImage from '../assets/Ani2u.png'
 
 export const teamInfo = {
   name: 'JakcoolTo-gether',
@@ -80,28 +83,30 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: 'Campus Org Portal',
+    title: 'Dino Block',
     description:
-      'A membership and events portal for a student organization, with role-based dashboards and an event RSVP system.',
-    category: 'Full Stack',
-    technologies: ['React', 'Node.js', 'MySQL'],
-    githubUrl: 'https://github.com/',
+      'A 2d fast paced Dinosaur retro game built using OOP principles in Java, inspired by the game Varmitz',
+    category: 'Games',
+    photo: dinoImage,
+    technologies: ['Java'],
+    githubUrl: 'https://github.com/Cyber-Lemel/Dino_Block_Game',
     liveUrl: '#',
     initialLikes: 12,
     featured: true,
     highlights: [
-      'Built a role-based dashboard for officers vs. members',
-      'Designed the schema and RSVP workflow end to end',
-      'Deployed for live use during two org semesters',
+      'Deployed the project in my own local computer as an apps',
+      'Designed the whole maps of the games using command line, pixel as a number',
+      'Implement character animations in Java using image frames and object-oriented programming (OOP) principles.',
     ],
   },
   {
     id: 2,
-    title: 'Queueing Theory Simulator',
-    description: 'An interactive visualizer for M/M/1 and M/M/c queue models built for our Operations Research class.',
-    category: 'Web App',
-    technologies: ['React', 'Recharts'],
-    githubUrl: 'https://github.com/',
+    title: 'Memory Allocation System',
+    description: 'An interactive Anime (One-Piece) system for memory allocation strategies to help calculate allocating memory without or a lessen fragmentation.',
+    category: 'Systems',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    photo: memoryImage,
+    githubUrl: 'https://github.com/Cyber-Lemel/OnePiece_AllocationSystem',
     liveUrl: '#',
     initialLikes: 9,
     featured: true,
@@ -113,18 +118,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Habit Tracker Mobile UI',
-    description: 'A mobile-first habit tracking interface, prototyped in React and tuned for one-handed use.',
-    category: 'Mobile/UI',
-    technologies: ['React', 'CSS Grid'],
-    githubUrl: 'https://github.com/',
+    title: 'Ani2u E-Commerce Prototype',
+    description: 'A Filipino farm-to-table marketplace app built for rural reach, featuring group-buy "Lobby" batch ordering that lowers delivery costs as more neighbors join, order tracking with smart route recommendations for faster delivery, and an AI recipe recommendation assistant., prototyped in React and tuned for one-handed use.',
+    category: 'Web App',
+    technologies: ['Lovable'],
+    photo: EcommerceImage,
+    githubUrl: 'https://lovable.dev/projects/e7b77a7a-50b4-4e00-a48d-b571f7904bb4',
     liveUrl: '#',
     initialLikes: 7,
     featured: false,
     highlights: [
-      'Explored thumb-zone friendly navigation patterns',
-      'Built a streak-counter component with local state',
-      'Ran a small usability test with five classmates',
+      '1st place in a Local Hackathon/Startup in Taguig City, Philippines',
+      'Get the best route for delivery using Google Maps API',
+      'Solve a real problem in the Philippines, which is the high cost of delivery for rural areas',
     ],
   },
   {

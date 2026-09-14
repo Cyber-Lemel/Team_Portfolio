@@ -42,8 +42,8 @@ function Projects({ projects }) {
                 >
                   {/* Image Placeholder */}
                   <div className="carousel__image-placeholder">
-                    {/* Add images to portfolioData.js and replace this span with an <img src={project.image} /> */}
-                    <span>Project Image</span>
+                    {/* Add images to portfolioData.js and replace this span with an <img src={project.photo} /> */}
+                    <img src={project.photo} alt={project.title} />
                   </div>
                   
                   <h3 className="carousel__project-name">{project.title}</h3>

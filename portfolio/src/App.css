@@ -49,11 +49,11 @@
 .about__photo { width: 100%; height: 100%; border-radius: var(--radius-card); border: 1px solid var(--border-color); object-fit: cover; }
 
 /* ---------- Skills ---------- */
-.skills__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.skills__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; border: solid 1px black; border-radius: var(--radius-card); padding: 32px; }
 .skills__col-title { font-size: 1.15rem; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-.skills__list { display: flex; flex-direction: column; gap: 16px; }
+.skills__list { display: flex; flex-direction: column; gap: 16px; border-right: solid 1px black;}
 .skill-item { display: flex; align-items: center; gap: 14px; }
-.skill-item__box { width: 44px; height: 44px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); display: flex; align-items: center; justify-content: center; }
+.skill-item__box { width: 44px; height: 44px; background: var(--bg-card); border: 1px solid black; border-radius: var(--radius-card); display: flex; align-items: center; justify-content: center; }
 .skill-item__name { font-weight: 500; font-size: 0.95rem; }
 
 /* ---------- Projects Carousel ---------- */
