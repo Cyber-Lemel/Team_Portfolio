@@ -84,12 +84,29 @@
 .project-card__tech { display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0 0 20px; } /* Kept for Modal */
 
 /* ---------- Courses ---------- */
-.courses__table { display: flex; flex-direction: column; border: 1px solid var(--border-color); border-radius: var(--radius-card); overflow: hidden; }
-.courses__row { display: grid; grid-template-columns: 0.8fr 2fr 1.2fr 0.7fr; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--border-color); align-items: center; }
-.courses__row:last-child { border-bottom: none; }
-.courses__row--head { background: var(--bg-secondary); font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-secondary); }
-.courses__title { font-weight: 600; }
-.courses__term { color: var(--text-secondary); font-size: 0.9rem; }
+.courses__semester-title {font-family: var(--font-display);font-size: 1.35rem;margin-bottom: 16px;color: var(--text-primary);}
+.courses__table-wrapper {width: 100%; overflow-x: auto; margin-bottom: 24px;}
+.courses__table {width: 100%; border-collapse: collapse; border: 2px solid var(--text-primary); text-align: left;}
+.courses__table th,
+.courses__table td {border: 2px solid var(--text-primary); padding: 14px 20px;}
+.courses__table th {background: var(--bg-secondary); font-family: var(--font-body); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;color: var(--text-primary);}
+.sort-icon {opacity: 0.3; margin-left: 8px; font-size: 0.9rem; vertical-align: middle;}
+.courses__title {font-weight: 600;color: var(--text-primary);}
+.courses__empty {text-align: center; color: var(--text-secondary); font-style: italic; padding: 32px !important;}
+
+/* Pagination / Tabs */
+.courses__pagination {display: flex; align-items: center; justify-content: flex-end; gap: 16px; flex-wrap: wrap;}
+.courses__pagination-label {font-size: 0.9rem; color: var(--text-secondary); font-family: var(--font-mono);}
+.courses__pagination-group {display: flex; border: 1px solid var(--border-color); border-radius: var(--radius-card); overflow: hidden;}
+.courses__page-btn {background: var(--bg-card); border: none; border-right: 1px solid var(--border-color); color: var(--text-primary);
+padding: 10px 16px; font-family: var(--font-mono); font-size: 0.9rem; font-weight: 500; cursor: pointer; transition: all 0.2s var(--ease);}
+.courses__page-btn:last-child {border-right: none;}
+.courses__page-btn:hover {background: var(--bg-secondary);}
+
+/* Matches the blue highlight from the portal, using your theme accent */
+.courses__page-btn--active {background: var(--accent);color: #fdfaf3;}
+/* Responsive adjustment for small screens */
+@media (max-width: 640px) {.courses__pagination {justify-content: flex-start;}.courses__page-btn {padding: 10px 12px;}}
 
 /* ---------- Contact ---------- */
 .contact__grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 48px; }

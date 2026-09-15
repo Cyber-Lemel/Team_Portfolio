@@ -190,12 +190,28 @@ export const projects = [
 ]
 
 export const courses = [
-  { id: 1, code: 'CS 201', title: 'Data Structures & Algorithms', institution: 'Central Luzon State University', term: '2nd Yr, Sem 1', grade: '1.25', topics: ['Trees', 'Graphs', 'Sorting'] },
-  { id: 2, code: 'CS 214', title: 'Object-Oriented Programming', institution: 'Central Luzon State University', term: '2nd Yr, Sem 1', grade: '1.50', topics: ['Design Patterns', 'UML', 'Java'] },
-  { id: 3, code: 'CS 230', title: 'Database Management Systems', institution: 'State University', term: '2nd Yr, Sem 2', grade: '1.25', topics: ['SQL', 'Normalization', 'Transactions'] },
-  { id: 4, code: 'CS 250', title: 'Web Systems & Technologies', institution: 'State University', term: '3rd Yr, Sem 1', grade: '1.00', topics: ['React', 'REST', 'HTTP'] },
-  { id: 5, code: 'CS 262', title: 'Operating Systems', institution: 'State University', term: '3rd Yr, Sem 1', grade: '1.75', topics: ['Processes', 'Memory', 'Scheduling'] },
-  { id: 6, code: 'CS 270', title: 'Software Engineering', institution: 'State University', term: '3rd Yr, Sem 2', grade: '1.25', topics: ['Agile', 'Testing', 'Requirements'] },
+  { id: 1, code: 'Intech 1100', title: 'Discrete Mathematics', term: '1st Yr, Sem 1', grade: '1.75' },
+  { id: 2, code: 'Comsci 1101', title: 'Computer Programming 1', term: '1st Yr, Sem 1', grade: '1.00' },
+  {id: 3, code: 'Comsci 1100', title: 'IT Fundamentals', term: '1st Yr, Sem 1', grade: '2.00'},
+  {id: 4, code: 'Comsci 1200', title: 'Computer Programming 2', term: '1st Yr, Sem 2', grade: '2.25'},
+  {id: 5, code: 'Comsci 1201', title: 'Data Structures and Algorithms', term: '1st Yr, Sem 2', grade: '1.50'},
+  {id: 6, code: 'Intech 1200', title: 'Social and Professional Issues', term: '1st Yr, Sem 2', grade: '1.50'},
+  {id: 7, code: 'Comsci 2100', title: 'Information Management', term: '2nd Yr, Sem 1', grade: '1.75'},
+  {id: 8, code: 'Comsci 2101', title: 'Operating System', term: '2nd Yr, Sem 1', grade: '1.50'},
+  {id: 9, code: 'Comsci 2110', title: 'Object-Oriented Programming', term: '2nd Yr, Sem 1', grade: '1.75'},
+  {id: 10, code: 'Intech 2100', title: 'Web Design and Multimedia', term: '2nd Yr, Sem 1', grade: '1.50'},
+  {id: 11, code: 'Comsci 2200', title: 'Advanced Database Management System', term: '2nd Yr, Sem 2', grade: '1.00'},
+  {id: 12, code: 'Comsci 2201', title: 'System Integration and Architecture', term: '2nd Yr, Sem 2', grade: '1.75'},
+  {id: 13, code: 'Intech 2200', title: 'Computer Network 1', term: '2nd Yr, Sem 2', grade: '1.50'},
+  {id: 14, code: 'Intech 2201', title: 'Web Application Development 1', term: '2nd Yr, Sem 2', grade: '1.75'},
+  {id: 15, code: 'GEELEC 1', title: 'Communication and AI', term: '2nd Yr, Sem 2', grade: '1.25'},
+  {id: 16, code: 'Intech 2202', title: 'Information Assurance and Security 1', term: '2nd Yr, Sem 2', grade: '1.50'},
+  {id: 17, code: 'INTECH 3100', title: 'Information Assurance and Security 2', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
+  {id: 18, code: 'INTECH 3101', title: 'Human Computer Interaction', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
+  {id: 19, code: 'INTECH 3110', title: 'Computer Networks 2', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
+  {id: 20, code: 'INTECH 3112', title: 'Web Application Development 2', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
+  {id: 21, code: 'COMSCI 3100', title: 'Applications Development and Emerging Technologies', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
+  {id: 22, code: 'ITRM 3100', title: 'Research Methods', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
 ]
 
 export const socialLinks = [
