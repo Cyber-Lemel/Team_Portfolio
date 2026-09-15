@@ -44,9 +44,7 @@ function ProjectModal({ project, onClose }) {
           <a href={project.githubUrl} target="_blank" rel="noreferrer" className="btn btn--ghost">
             View code
           </a>
-          <a href={project.liveUrl} target="_blank" rel="noreferrer" className="btn btn--primary">
-            Live demo
-          </a>
+          
         </div>
       </div>
     </div>

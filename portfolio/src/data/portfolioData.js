@@ -4,16 +4,18 @@ import member3 from '../assets/Janus.png'
 import dinoImage from '../assets/Dino.png'
 import memoryImage from '../assets/OnePiece.png'
 import EcommerceImage from '../assets/Ani2u.png'
-import { reactIcon, jsIcon, cssIcon, htmlIcon, tailwindIcon, wordpressIcon, laravelIcon, phpIcon, javaIcon, mysqlIcon, packetTracerIcon, gitIcon, dsIcon, alIcon, oopIcon, pythonIcon, figmaIcon, cIcon} from '../assets/logo'
+import Allready from '../assets/allready.png'
+import JomerPortfolio from '../assets/jomerport.png'
+import { reactIcon, jsIcon, cssIcon, htmlIcon, tailwindIcon, wordpressIcon, laravelIcon, phpIcon, javaIcon, mysqlIcon, packetTracerIcon, gitIcon, dsIcon, alIcon, oopIcon, pythonIcon, figmaIcon, cIcon, algoriIcom} from '../assets/logo'
 
 export const teamInfo = {
-  name: 'JakcoolTo-gether',
+  name: 'J.M.J',
   tagline: 'A three-person build crew from the BSCS program',
   bio: "We're three Information Technology students who partner on coursework, and side builds. This site is our shared roster: what each of us knows, what we've shipped together, and how to reach us.",
   status: 'Open to internships & junior dev roles',
   location: 'Munoz, Nueva Ecija, Philippines',
-  email: 'hello.jakcooltogether@gmail.com',
-  github: 'https://github.com/',
+  email: 'jmj@gmail.com',
+  github: 'https://github.com/Cyber-Lemel/Team_Portfolio',
   resume: '#',
 }
 
@@ -32,6 +34,10 @@ export const team = [
     role: 'Frontend & UI',
     focus: 'React interfaces, layout systems, and design tokens.',
     photo: member1,
+    socials: {
+      facebook: 'https://web.facebook.com/jomer.villanueva.dellosa.2024',
+      instagram: 'https://www.instagram.com/aint.meng/'
+    }
   },
   {
     id: 'velasco',
@@ -40,6 +46,10 @@ export const team = [
     role: 'Backend & Data',
     focus: 'APIs, databases, and the plumbing that keeps the frontend fed.',
     photo: member2,
+    socials: {
+      facebook: 'https://web.facebook.com/mheljosef0023/',
+      instagram: 'https://www.instagram.com/brghtmj/'
+    }
   },
   {
     id: 'franada',
@@ -48,6 +58,10 @@ export const team = [
     role: 'Tools & QA',
     focus: 'Build tooling, testing, and deployment for every group project.',
     photo: member3,
+    socials: {
+      facebook: 'https://web.facebook.com/jnzadn',
+      instagram: 'https://www.instagram.com/jnzadn/'
+    }
   },
 ]
 
@@ -77,7 +91,7 @@ export const skills = [
   { id: 9, name: 'Packet Tracer', category: 'Database & Tools', level: 'Comfortable', iconKey: 'packet-tracer', icon: packetTracerIcon },
   { id: 10, name: 'Git & GitHub', category: 'Backend', level: 'Proficient', iconKey: 'git', icon: gitIcon },
   { id: 11, name: 'Data Structures', category: 'Core CS', level: 'Proficient', iconKey: 'ds', icon: dsIcon },
-  { id: 12, name: 'Algorithms', category: 'Core CS', level: 'Comfortable', iconKey: 'algo', icon: alIcon },
+  { id: 12, name: 'Algorithms', category: 'Core CS', level: 'Comfortable', iconKey: 'algo', icon: algoriIcom },
   { id: 13, name: 'OOP Design', category: 'Core CS', level: 'Proficient', iconKey: 'oop', icon: oopIcon },
   {id: 14, name: 'Tailwind CSS', category: 'Frontend', level: 'Comfortable', iconKey: 'tailwind', icon: tailwindIcon},
   {id: 15, name: 'WordPress', category: 'Frontend', level: 'Comfortable', iconKey: 'wordpress', icon: wordpressIcon},
@@ -141,50 +155,36 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Library Inventory API',
-    description: 'A REST API for tracking book inventory and loans for a mock campus library system.',
-    category: 'Full Stack',
-    technologies: ['Express', 'MongoDB'],
-    githubUrl: 'https://github.com/',
+    title: 'Allready',
+    description: 'A e-commerce platform build by WorldPress with Ai features and sorting category',
+    category: 'E-Commerce system',
+    technologies: ['WorldPress'],
+    photo: Allready,
+    githubUrl: 'https://allready.infinityfree.me/?fbclid=IwY2xjawUWMT9wZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkATAAAR4Kbg_dD4foUSIaVAT9p-SWMftbkBHkqXj6TdIJh_Q5nJka-f98mhLyuKn_9Q_aem_COG_jr98AhR7jN7pjeUfPg&i=1',
     liveUrl: '#',
     initialLikes: 6,
     featured: false,
     highlights: [
-      'Designed endpoints for loans, holds, and returns',
-      'Added JWT auth for staff-only routes',
-      'Wrote integration tests for every route',
+      'Designed using WorldPress with a database connected to Xaamp',
+      'Integrate with fully functional AI inside',
+      'Responsive',
     ],
   },
   {
     id: 5,
-    title: 'Grade Weighting Calculator',
-    description: 'A small utility app that computes final grades from custom weighted categories.',
-    category: 'Web App',
-    technologies: ['JavaScript', 'CSS'],
-    githubUrl: 'https://github.com/',
+    title: 'Jomer Personal Portfolio',
+    description: 'Jomer personal portfolio built using WorldPress and publish in the web using infinityfree',
+    category: 'Portfolio',
+    technologies: ['WorldPress'],
+    photo: JomerPortfolio,
+    githubUrl: 'https://dellosajomer.infinityfree.me/?fbclid=IwY2xjawUWNhlwZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkATAAAR6ov-uQ11eAyVMs7sL-NMYZ1TYhHKmRaal0IzsHmU4EgsLwuamt490si1x7Ww_aem_3sLRVS1nBwE20j7tFLjnVw',
     liveUrl: '#',
     initialLikes: 15,
     featured: true,
     highlights: [
-      'Handles arbitrary category weights that must sum to 100%',
-      'Saves setups so classmates can reuse them each term',
-      'Passed around the whole block group chat',
-    ],
-  },
-  {
-    id: 6,
-    title: 'Hackathon: Barangay Alert',
-    description: 'A 24-hour hackathon build for local disaster alerts, built with a shared codebase across the three of us.',
-    category: 'Full Stack',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    githubUrl: 'https://github.com/',
-    liveUrl: '#',
-    initialLikes: 21,
-    featured: true,
-    highlights: [
-      'Split frontend, backend, and infra three ways under time pressure',
-      'Placed as a finalist in a regional inter-collegiate hackathon',
-      'Reused the auth layer in two later projects',
+      'SPaS Portfolio hosted using infinityfree',
+      'Designed using only WorldPress without code',
+      'Professionally Designed',
     ],
   },
 ]
@@ -215,7 +215,7 @@ export const courses = [
 ]
 
 export const socialLinks = [
-  { id: 1, label: 'GitHub', url: 'https://github.com/' },
-  { id: 2, label: 'Email', url: 'mailto:hello.jakcooltogether.crew@gmail.com' },
-  { id: 3, label: 'LinkedIn', url: 'https://linkedin.com/' },
+  { id: 1, label: 'GitHub', url: 'https://github.com/Cyber-Lemel/Team_Portfolio' },
+  { id: 2, label: 'Email', url: 'mailto:hello jmj@gmail.com' },
+  { id: 3, label: 'LinkedIn', url: 'https://www.linkedin.com/feed/' },
 ]

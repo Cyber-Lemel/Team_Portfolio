@@ -36,7 +36,7 @@
   --success: #5fae84;
 }
 
-* {
+*, ::before, *::after {
   box-sizing: border-box;
 }
 
@@ -123,7 +123,7 @@ section:last-of-type {
   margin-bottom: 5.5px;
   flex-wrap: wrap;
   background: var(--bg-secondary);
-  height: 5rem;
+  min-height: 5rem;
   width: 100%;
   padding-left: 1.5rem;
   padding-right: 1rem;
