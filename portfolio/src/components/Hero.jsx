@@ -10,7 +10,7 @@ function Hero({ team, teamInfo }) {
         
         <div className="hero__roster hero__roster--row" role="list" aria-label="Team roster">
           {team.map((member) => (
-            <div className="id-card id-card--straight" role="listitem" key={member.id}>
+            <div className="id-card id-card--straight" role="listitem" key={member}>
               <div className="id-card__photo-frame id-card__photo-frame--center">
                   <img src={member.photo} alt={`${member.name}, ${member.role}`} />
               </div>
@@ -18,6 +18,7 @@ function Hero({ team, teamInfo }) {
                 <h3>{member.name}</h3>
                 <p className="id-card__role mono-tag">{member.role}</p>
                 <p className="id-card__desc">{member.focus}</p>
+                <p className="id-card__desc">{member.info}</p>
 
                 <div className="id-card__socials">
                   <a href={member.socials?.facebook || '#'} target="_blank" rel="noreferrer" aria-label="Facebook">
@@ -39,7 +40,7 @@ function Hero({ team, teamInfo }) {
             </div>
           ))}
         </div>
-        <p className="hero__bio">{teamInfo.bio}</p>
+        
       </div>
     </section>
   )

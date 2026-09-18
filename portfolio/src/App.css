@@ -80,6 +80,7 @@ main {
 .about__label {margin-bottom: 6px;}
 .about__card h3 {font-size: 1.4rem; margin-bottom: 6px;}
 .about__note {margin-top: 16px;}
+.education {font-size: 1.2rem; margin-bottom: 6px;}
 
 /* --- COLLAGE CONTAINER --- */
 .about__collage-container {position: relative; width: 100%; min-height: 480px; margin: 0 auto;}
@@ -100,12 +101,13 @@ background-repeat: no-repeat; transition: transform 0.3s var(--ease);}
   }
 }
 /* ---------- Skills ---------- */
-.skills__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; border: solid var(--border-color); border-radius: var(--radius-card); padding: 32px; }
+.skills__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; border: solid var(--border-color); border-radius: var(--radius-card); padding: 32px;}
 .skills__col-title { font-size: 1.15rem; margin-bottom: 20px; border-bottom: solid var(--border-color); padding-bottom: 10px; }
 .skills__list { display: flex; flex-direction: column; gap: 16px; border-right: solid var(--border-color);}
-.skill-item { display: flex; align-items: center; gap: 14px; }
+.skill-item { display: flex; align-items: center; gap: 14px; place-items: center;}
 .skill-item__box { width: 44px; height: 44px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); display: flex; align-items: center; justify-content: center; }
 .skill-item__name { font-weight: 500; font-size: 0.95rem; }
+
 
 /* ---------- Projects Carousel ---------- */
 .carousel-container { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; min-height: 420px; margin-top: 20px; }

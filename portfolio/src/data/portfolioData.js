@@ -6,6 +6,7 @@ import memoryImage from '../assets/OnePiece.png'
 import EcommerceImage from '../assets/Ani2u.png'
 import Allready from '../assets/allready.png'
 import JomerPortfolio from '../assets/jomerport.png'
+import JanusPortfolio from '../assets/janusPort.png'
 import { reactIcon, jsIcon, cssIcon, htmlIcon, tailwindIcon, wordpressIcon, laravelIcon, phpIcon, javaIcon, mysqlIcon, packetTracerIcon, gitIcon, dsIcon, alIcon, oopIcon, pythonIcon, figmaIcon, cIcon, algoriIcom} from '../assets/logo'
 
 export const teamInfo = {
@@ -32,7 +33,8 @@ export const team = [
     codename: 'Meng',
     name: 'Jomer Dellosa',
     role: 'Frontend & UI',
-    focus: 'React interfaces, layout systems, and design tokens.',
+    focus: 'React interfaces, layout systems, and design.',
+    info: 'Focuses on User Experince, optimization of websites and systems.',
     photo: member1,
     socials: {
       facebook: 'https://web.facebook.com/jomer.villanueva.dellosa.2024',
@@ -43,8 +45,9 @@ export const team = [
     id: 'velasco',
     codename: 'Doffy',
     name: 'Mel Joseph Velasco',
-    role: 'Backend & Data',
-    focus: 'APIs, databases, and the plumbing that keeps the frontend fed.',
+    role: 'Backend & Structure',
+    focus: 'Backend, Logical Structure of the Project.',
+    info: 'Backend connoisseur, master of logical structure and flow of code.',
     photo: member2,
     socials: {
       facebook: 'https://web.facebook.com/mheljosef0023/',
@@ -55,8 +58,9 @@ export const team = [
     id: 'franada',
     codename: 'Aidamn',
     name: 'Janus Franada',
-    role: 'Tools & QA',
-    focus: 'Build tooling, testing, and deployment for every group project.',
+    role: 'Logic & Code',
+    focus: 'Backend, and Code Structure',
+    info: 'Focuses on the art of delivering top-tier home-made pancit canton',
     photo: member3,
     socials: {
       facebook: 'https://web.facebook.com/jnzadn',
@@ -187,25 +191,43 @@ export const projects = [
       'Professionally Designed',
     ],
   },
+  {
+    id: 6, 
+    title: 'Janus Portfolio',
+    description: 'Janus personal portfolio built using WordPress, and published on the web using Infinityfree',
+    category: 'Portfolio',
+    technologies: ['WordPress'],
+    photo: JanusPortfolio,
+    githubUrl: '',
+    liveUrl: '#',
+    initialLikes: 15,
+    featured: true,
+    highlights: [
+      'SPaS Portfolio hosted using infinityfree',
+      'Designed using only WordPress, and a small amount of code manipulation',
+      'Professionally Designed and Customized',
+    ],
+
+  }
 ]
 
 export const courses = [
-  { id: 1, code: 'Intech 1100', title: 'Discrete Mathematics', term: '1st Yr, Sem 1', grade: '1.75' },
-  { id: 2, code: 'Comsci 1101', title: 'Computer Programming 1', term: '1st Yr, Sem 1', grade: '1.00' },
-  {id: 3, code: 'Comsci 1100', title: 'IT Fundamentals', term: '1st Yr, Sem 1', grade: '2.00'},
-  {id: 4, code: 'Comsci 1200', title: 'Computer Programming 2', term: '1st Yr, Sem 2', grade: '2.25'},
-  {id: 5, code: 'Comsci 1201', title: 'Data Structures and Algorithms', term: '1st Yr, Sem 2', grade: '1.50'},
-  {id: 6, code: 'Intech 1200', title: 'Social and Professional Issues', term: '1st Yr, Sem 2', grade: '1.50'},
-  {id: 7, code: 'Comsci 2100', title: 'Information Management', term: '2nd Yr, Sem 1', grade: '1.75'},
-  {id: 8, code: 'Comsci 2101', title: 'Operating System', term: '2nd Yr, Sem 1', grade: '1.50'},
-  {id: 9, code: 'Comsci 2110', title: 'Object-Oriented Programming', term: '2nd Yr, Sem 1', grade: '1.75'},
-  {id: 10, code: 'Intech 2100', title: 'Web Design and Multimedia', term: '2nd Yr, Sem 1', grade: '1.50'},
-  {id: 11, code: 'Comsci 2200', title: 'Advanced Database Management System', term: '2nd Yr, Sem 2', grade: '1.00'},
-  {id: 12, code: 'Comsci 2201', title: 'System Integration and Architecture', term: '2nd Yr, Sem 2', grade: '1.75'},
-  {id: 13, code: 'Intech 2200', title: 'Computer Network 1', term: '2nd Yr, Sem 2', grade: '1.50'},
-  {id: 14, code: 'Intech 2201', title: 'Web Application Development 1', term: '2nd Yr, Sem 2', grade: '1.75'},
-  {id: 15, code: 'GEELEC 1', title: 'Communication and AI', term: '2nd Yr, Sem 2', grade: '1.25'},
-  {id: 16, code: 'Intech 2202', title: 'Information Assurance and Security 1', term: '2nd Yr, Sem 2', grade: '1.50'},
+  { id: 1, code: 'Intech 1100', title: 'Discrete Mathematics', term: '1st Yr, Sem 1', grade: '1.75, 2.00, 1.50' },
+  { id: 2, code: 'Comsci 1101', title: 'Computer Programming 1', term: '1st Yr, Sem 1', grade: '1.00, 1.50, 1.25'},
+  {id: 3, code: 'Comsci 1100', title: 'IT Fundamentals', term: '1st Yr, Sem 1', grade: '2.00, 1.00, 1.75'},
+  {id: 4, code: 'Comsci 1200', title: 'Computer Programming 2', term: '1st Yr, Sem 2', grade: '2.25, 2.00, 1.00'},
+  {id: 5, code: 'Comsci 1201', title: 'Data Structures and Algorithms', term: '1st Yr, Sem 2', grade: '1.50, 1.25, 1.25'},
+  {id: 6, code: 'Intech 1200', title: 'Social and Professional Issues', term: '1st Yr, Sem 2', grade: '1.50, 1.50, 1.50'},
+  {id: 7, code: 'Comsci 2100', title: 'Information Management', term: '2nd Yr, Sem 1', grade: '1.75, 1.75, 1.75'},
+  {id: 8, code: 'Comsci 2101', title: 'Operating System', term: '2nd Yr, Sem 1', grade: '1.50, 1.00, 1.00'},
+  {id: 9, code: 'Comsci 2110', title: 'Object-Oriented Programming', term: '2nd Yr, Sem 1', grade: '1.75, 1.50, 1.00'},
+  {id: 10, code: 'Intech 2100', title: 'Web Design and Multimedia', term: '2nd Yr, Sem 1', grade: '1.50, 2.00, 1.50'},
+  {id: 11, code: 'Comsci 2200', title: 'Advanced Database Management System', term: '2nd Yr, Sem 2', grade: '1.00, 1.75, 1.00'},
+  {id: 12, code: 'Comsci 2201', title: 'System Integration and Architecture', term: '2nd Yr, Sem 2', grade: '1.75, 1.00, 1.00'},
+  {id: 13, code: 'Intech 2200', title: 'Computer Network 1', term: '2nd Yr, Sem 2', grade: '1.50, 2.00, 1.25'},
+  {id: 14, code: 'Intech 2201', title: 'Web Application Development 1', term: '2nd Yr, Sem 2', grade: '1.75, 1.25, 1.00'},
+  {id: 15, code: 'GEELEC 1', title: 'Communication and AI', term: '2nd Yr, Sem 2', grade: '1.25, 2.00, 1.50'},
+  {id: 16, code: 'Intech 2202', title: 'Information Assurance and Security 1', term: '2nd Yr, Sem 2', grade: '1.50, 1.00, 1.00'},
   {id: 17, code: 'INTECH 3100', title: 'Information Assurance and Security 2', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
   {id: 18, code: 'INTECH 3101', title: 'Human Computer Interaction', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},
   {id: 19, code: 'INTECH 3110', title: 'Computer Networks 2', term: '3rd Yr, Sem 1', grade: 'Not yet graded'},

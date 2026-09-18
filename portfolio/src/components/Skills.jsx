@@ -25,12 +25,12 @@ function Skills({ skills }) {
       <div className="container">
         <div className="section-head">
           <h2>Skills directory</h2>
-          <span className="section-index mono-tag">Skills</span>
         </div>
+       
         <div className="skills__columns">
-          {renderColumn('Jomer', frontendSkills)}
-          {renderColumn('Mel', backendSkills)}
-          {renderColumn('Janus', otherSkills)}
+          {renderColumn('J.M.J', frontendSkills)}
+          {renderColumn('||', backendSkills)}
+          {renderColumn('==', otherSkills)}
         </div>
       </div>
     </section>
